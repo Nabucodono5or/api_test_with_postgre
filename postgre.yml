@@ -1,0 +1,23 @@
+version: '3.1'
+services:
+#  adminer:
+#     image: adminer
+#     restart: always
+#     ports:
+#       - 8080:8080
+
+ pgadmin4:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pereirajefferson06@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: basico
+    ports:
+      - 80:80
+
+ db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: teste
+      # POSTGRES_USER: teste
