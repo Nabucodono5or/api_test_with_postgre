@@ -1,5 +1,5 @@
-import express from 'express';
+import express, { Express } from 'express';
 
-const app = express();
+const app:Express = express();
 
 app.listen(3000, () => console.log('server iniciado na porta 3000'));
