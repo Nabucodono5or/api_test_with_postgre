@@ -1,0 +1,18 @@
+[x] Criar migration database pokedatabase
+[x] Criar migration database pokemon table
+[x] Criar migration database treinador table
+[ ] Criar entities
+[ ] Criar routes
+    [ ] Get all pokemon
+    [ ] Get all pokemon filter(type, type2, generation, legendary)
+    [ ] Insert pokemon
+    [ ] Insert treinador
+    [ ] Get All treinador
+    [ ] Get one treinador
+    [ ] Get one pokemon
+    [ ] Update pokemon
+    [ ] Update treinador
+    [ ] Remove pokemon
+    [ ] Remove treinador
+[ ] Criar migration team
+[ ] Estudar relation many to many typeorm
